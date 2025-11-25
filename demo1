@@ -1,0 +1,27 @@
+Adding two numbers in Python can be achieved using the arithmetic addition operator +. 
+Method 1: Direct Addition 
+This method involves directly adding two numerical values and storing the result in a variable or printing it directly. 
+num1 = 5
+num2 = 3
+result = num1 + num2
+print(result)  # Output: 8
+
+Method 2: User Input 
+This method allows the user to input the numbers during program execution. The input() function reads the input as a string, so it needs to be converted to an integer using int() before addition. 
+fnum = int(input("Enter first number: "))
+snum = int(input("Enter second number: "))
+sum_of_numbers = fnum + snum
+print("The sum of", fnum, "and", snum, "is", sum_of_numbers)
+
+Method 3: Using a Function 
+For more organized and reusable code, you can define a function to perform the addition. 
+def add_numbers(a, b):
+  return a + b
+
+number1 = 10
+number2 = 7
+sum_result = add_numbers(number1, number2)
+print("The sum is:", sum_result) # Output: The sum is: 17
+
+AI responses may include mistakes.
+
